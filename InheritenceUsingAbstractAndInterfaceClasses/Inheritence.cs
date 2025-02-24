@@ -56,7 +56,7 @@ namespace Interitence
         }
     }
 
-    class Program
+    class Inheritence
     {
         static void Main()
         {
@@ -64,20 +64,20 @@ namespace Interitence
             IVehicleOperations bike = new Bike();
             IVehicleOperations car1 = new Bike();
 
-            car.RentVehicle(5); 
-            car.CalculateRentalFee(); 
-            car.ReturnVehicle(); 
+            car.RentVehicle(5);
+            car.CalculateRentalFee();
+            car.ReturnVehicle();
 
             Console.WriteLine();
 
-            bike.RentVehicle(3); 
+            bike.RentVehicle(3);
             bike.CalculateRentalFee();
             bike.ReturnVehicle();
 
             car1.RentVehicle(1);
             car1.CalculateRentalFee();
 
-            Console.WriteLine(); 
+            Console.WriteLine();
 
             Console.WriteLine("\nVehicle Rental Process Completed");
         }
