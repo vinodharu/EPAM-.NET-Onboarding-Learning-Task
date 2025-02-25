@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomExceptions", "CustomE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enum", "Enum\Enum.csproj", "{B0F7FD27-7AC0-43E8-B5BB-1AB28D852B20}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringBuilder", "StringBuilder\StringBuilder.csproj", "{0495B5FA-A148-4B72-842F-6CC3F4FA3E24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{B0F7FD27-7AC0-43E8-B5BB-1AB28D852B20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0F7FD27-7AC0-43E8-B5BB-1AB28D852B20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0F7FD27-7AC0-43E8-B5BB-1AB28D852B20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0495B5FA-A148-4B72-842F-6CC3F4FA3E24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0495B5FA-A148-4B72-842F-6CC3F4FA3E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0495B5FA-A148-4B72-842F-6CC3F4FA3E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0495B5FA-A148-4B72-842F-6CC3F4FA3E24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
